@@ -1,0 +1,55 @@
+﻿* {
+    box-sizing: border-box;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat';
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dab744+0,e5bc5b+26,efd7a7+100 */
+    background: #dab744; /* Old browsers */
+    background: -moz-linear-gradient(top, #dab744 0%, #e5bc5b 26%, #efd7a7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #dab744 0%,#e5bc5b 26%,#efd7a7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #dab744 0%,#e5bc5b 26%,#efd7a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dab744', endColorstr='#efd7a7',GradientType=0 ); /* IE6-9 */
+    height:100%;
+}
+.titulo{
+    width:100%;
+    text-align:center;
+}
+ul{
+    list-style:none;
+    padding: 0;
+    margin:0;
+}
+ul > li {
+    width:100%;
+}
+ul > li > input:not([type="button"]){
+    width:80%;
+    margin-left:10%;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:solid 1px #000;
+    border-radius:5px;
+    margin-top:20px;
+    font-size:20px;
+    padding-left:10px;
+}
+ul > li > input[type="button"]{
+    float:right;
+    margin-right:10%;
+    margin-top:20px;
+    padding: 5px 10px;
+    border-radius:5px;
+    border:solid 1px #000;
+    background-color:#333535;
+    color:#fff;
+    transition:0.5s;
+    cursor:pointer;
+}
+ul > li > input[type="button"]:hover {
+    background-color: #fff;
+    color: #333535;
+}
